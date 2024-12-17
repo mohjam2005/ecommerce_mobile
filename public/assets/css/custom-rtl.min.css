@@ -1,0 +1,65 @@
+/* here you can put your own css to customize and override the theme */
+/*@font-face {
+    font-family: 'Droid Naskh Bold';
+    src: local('Droid Naskh Bold'), local('Droid Naskh Bold'), url(../fonts/DroidNaskh-Bold.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Droid Naskh Normal';
+    src: local('Droid Naskh Normal'), local('Droid Naskh Normal'), url(../fonts/DroidNaskh-Regular.woff) format('woff');
+}
+
+@font-face {
+    font-family:"Helvetica";
+    src:url("../fonts/HelveticaNeueW23-Reg.eot?") format("eot"), IE 6-8 
+        url("../fonts/HelveticaNeueW23-Reg.ttf") format("truetype"); Safari, Android, iOS 
+    font-style: normal;
+    font-weight: 400;
+}*/
+
+@import url(https://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+
+
+body {
+    /*font-family: 'Helvetica';*/
+    font-family: 'Droid Arabic Kufi', serif !important;
+
+}
+
+
+.mini_title {
+    color: #FFFFFF;
+    height: 0px;
+    line-height: 52px;
+}
+
+.page-title {
+    font-family: 'Droid Arabic Kufi';
+    font-size: 23px;
+}
+
+.my_header {
+    width: 100%;
+    height: 190px;
+    background-color: #212121 ;
+    margin-bottom: 1px;
+    padding-top: 0px;
+}
+.right_logo {
+    background: url("https://querygov.b-cdn.net/assets/layouts/layout/img/right_logo1.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    float: right;
+    height: 52px;
+    margin-right: 20px;
+    width: 134px;
+}
+.left_logo {
+    background: url("../img/left_logo1.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    float: left;
+    height: 52px;
+    margin-left: 20px;
+    margin-top: 0;
+    width: 223px;
+}
+
+
+/* here you can put your own css to customize and override the theme */
